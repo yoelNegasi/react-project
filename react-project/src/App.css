@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.id {
+  background-color: rgb(110, 155, 155);
+  border: 2px solid;
+  text-align: center;
+}
+.category {
+  background-color: rgb(124, 122, 119);
+  text-align: center;
+}
+.alcoholic {
+  background-color: rgb(182, 205, 99);
+  text-align: center;
+}
+.ins {
+  background-color: hotpink;
+  text-align: center;
+}
+.glass {
+  background-color: rgb(152, 69, 157);
+  text-align: center;
+}
+
+.ing {
+  background-color: dimgray;
+  text-align: center;
+}
+h1 {
+  color: rgb(51, 49, 175);
+}
+
+div {
+  border-radius: 20px;
+}
+.title {
+  text-align: center;
+  font-size: 60px;
+  color: rgb(22, 250, 254);
+}
+body {
+  background-color: skyblue;
+}
