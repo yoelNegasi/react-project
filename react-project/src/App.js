@@ -10,7 +10,6 @@ class App extends Component {
     this.state = {
       drinks: [],
     };
-    // this.getinfo = this.getinfo.(this);
   }
 
   componentDidMount() {
@@ -27,8 +26,6 @@ class App extends Component {
   render() {
     console.log("STATE: ", this.state.drinks);
     let finalDrinks = this.state.drinks;
-    console.log("FINAL DRINKS: ", finalDrinks);
-    // let element = [];
     let element = finalDrinks.map((el) => {
       return (
         <Drinks
@@ -58,17 +55,3 @@ class App extends Component {
 }
 
 export default App;
-
-{
-  /* <div>
-          <li> {el.idDrink} </li>
-          <li> {el.strCategory} </li>
-          <li> {el.strAlcoholic} </li>
-          <li> {el.strGlass} </li>
-          <li>{el.strInstructions}</li>
-          <li>{el.strDrinkThumb}</li>
-          <li>{el.strIngredient1}</li>
-          <li>{el.strIngredient2}</li>
-          <li>{el.strIngredient3}</li>
-        </div> */
-}

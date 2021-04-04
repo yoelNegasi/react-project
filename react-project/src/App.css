@@ -4,20 +4,20 @@
 }
 
 .id {
-  background-color: rgb(110, 155, 155);
+  background-color: rgb(72, 102, 133);
   border: 2px solid;
   text-align: center;
 }
 .category {
-  background-color: rgb(124, 122, 119);
+  background-color: rgb(17, 104, 116);
   text-align: center;
 }
 .alcoholic {
-  background-color: rgb(182, 205, 99);
+  background-color: rgb(67, 51, 169);
   text-align: center;
 }
 .ins {
-  background-color: hotpink;
+  background-color: rgb(135, 95, 64);
   text-align: center;
 }
 .glass {
@@ -30,7 +30,7 @@
   text-align: center;
 }
 h1 {
-  color: rgb(51, 49, 175);
+  color: rgb(186, 124, 54);
 }
 
 div {
